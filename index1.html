@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>1号店登录</title>
+
+		<style>
+			.headPic {
+				position: absolute;
+				width: 145px;
+				height: 55px;
+				top: 10px;
+				left: 55px;
+			}
+			
+			#head {
+				position: absolute;
+				width: 100%;
+				height: 75px;
+				border: 1px solid #e1e1e1;
+			}
+			
+			#head1 {
+				position: absolute;
+				font-size: 5px;
+				right: 65px;
+				top: 0px;
+				width: 300px;
+				height: 95px;
+			}
+			
+			.picture {
+				position: absolute;
+				top: 65px;
+				height: 350px;
+				width: 510px;
+				left: 200px;
+				top: 155px
+			}
+			
+			#head2 {
+				position: absolute;
+				font-size: 5px;
+				right: 50px;
+				top: 6px;
+				width: 100px;
+				height: 55px;
+				line-height: 12px;
+			}
+			
+			.menu {
+				position: absolute;
+				font-size: 5px;
+				right: 10px;
+				top: 0px;
+				width: 100px;
+				height: 55px;
+			}
+			
+			#denglu {
+				font-size: 12px;
+				position: relative;
+				right: -150px;
+				top: 95px;
+				float: right;
+				width: 575px;
+				padding: 45px 35px 0 35px;
+				padding-top: 65px;
+				padding-right: 135px;
+				padding-bottom: 0px;
+				padding-left: 35px;
+				background-color: #fff;
+			}
+			
+			.uname {
+				padding: 20px;
+				margin: 5px;
+				width: 300px;
+			}
+			
+			.mima {
+				padding: 20px;
+				margin: 5px;
+				width: 300px;
+			}
+			
+			.denglu {
+				font-weight: bold;
+			}
+			
+			#denglu1 {
+				background: red;
+				font-size: 12px;
+				font-weight: bold;
+				color: white;
+				text-align: center;
+				height: 45px;
+				width: 345px;
+				margin-left: 5px;
+				margin-top: 20px;
+				border: none;
+				cursor: pointer;
+				border-radius: 3px;
+			}
+			
+			.QQ {
+				background: url(/img/icons_login_big.svg) 0 0 no-repeat;
+			}
+			
+			.foot {
+				font-size: 12px;
+				position: absolute;
+				text-align: center;
+				top: 550px;
+				right: 425px;
+				width: 500px;
+				color: black;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			a:hover {
+				color: red;
+			}
+			
+			
+		</style>
+	</head>
+
+	<body>
+		<div id="head">
+			<div>
+
+				<a href="https://www.yhd.com/" target="_blank">
+					<img src="https://passport.yhd.com/front-passport/passport/images/loginlogo.jpg" alt="1号店" class="headPic" />
+				</a>
+
+			</div>
+			<div id="head1">
+				<p>
+					你好,欢迎光临1号店!&nbsp;&nbsp;
+					<a href="#">请登录</a>
+
+				</p>
+			</div>
+
+			<div id="head2">
+
+				<select name="">
+					<a href="#" class="menu">
+						<option value="">
+
+							帮助中心
+						</option>
+					</a>
+					<option value="">
+
+						<a href="#">包裹跟踪</a>
+					</option>
+					<option value="">
+
+						<a href="#">常见问题</a>
+					</option>
+					<option value="">
+
+						<a href="#">在线退换货</a>
+					</option>
+					<option value="">
+						<a href="#">在线投诉</a>
+
+					</option>
+					<option value="">
+
+						<a href="#">配送范围</a>
+					</option>
+					<option value="">
+
+				</select>
+			</div>
+			<br />
+		</div>
+
+		<div class="picture">
+			<a id="imgLink" target="_blank" href="http://qianggou.yhd.com/?ref=ad.19022_47198172_1">
+				<img src="https://imgssl.yhd.com/V01/M01/47/3F/ChEi3VjwyzCAE_i8AACeYUoCpec98400.jpg" />
+			</a>
+		</div>
+
+		<div id="denglu">
+
+			<p class="denglu">1号店用户登录 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="https://passport.yhd.com/passport/register_input.do" >注册帐号</a>
+			</p>
+
+			<div id="">
+				<form action="" method="post">
+					<div>
+						<input type="text" placeholder="邮箱/手机/用户名" class="uname" />
+						<input type="password" placeholder="密码" class="mima" />
+					</div>
+					<div> <input type="checkbox" id="zidongdenglu"/>
+					<label for="zidongdenglu">自动登录</label>
+					
+						<a href="#" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						忘记密码?
+						</a><br />
+						<input type="submit" id="denglu1" value="登录" />
+					</div>
+
+				</form>
+
+				<div>
+					<p>更多合作网站账号登录</p>
+					<div>
+						<p>
+							<a href="https://passport.yhd.com/qq/login.do" target="_blank" class="iconfont qq" title="QQ" class="QQ">QQ</a>
+
+							<a href="https://passport.yhd.com/jingdong/login.do" target="_blank" class="iconfont jingdong" title="京东">京东</a>
+
+							<a href="https://passport.yhd.com/wechat/login.do?tp=2.0.0.0.0.LtNNy_V-10-2zbgP&amp;ti=GPP2SU" target="_blank" class="iconfont weixin" title="微信">微信</a>
+
+							<a href="https://passport.yhd.com/sina/login.do?tp=2.0.0.0.0.LtNNy_V-10-2zbgP&amp;ti=MYQ8Sd" target="_blank" class="iconfont sina" title="新浪微博">新浪微博</a>
+
+						</p>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="foot">
+
+			<a href="http://www.miibeian.gov.cn/" target="_blank">沪ICP备16050468号</a>&nbsp;|&nbsp;
+			<a>沪B2-20170039</a>&nbsp;|&nbsp;
+			<a href="http://d7.yihaodianimg.com/N09/M07/BD/7B/ChEi11kJnKaAJQMrAAK-LnhML4o60600.jpg" target="_blank">营业执照</a>
+			<p class="copy">
+				Copyright © 1号店网上超市 2007-2017，All Rights Reserved</p>
+
+		</div>
+	</body>
+
+</html>
